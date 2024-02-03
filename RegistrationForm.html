@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<!--When form is submitted it does what's in the ProcessSignup.php file using the method post.-->
+<form action="ProcessSignup.php" method="post">
+
+  <div class="container">
+    <h1>Registration page:</h1>
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" id="uname" name="uname" required>
+    <br>
+    <br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" id="psw" name="psw" required>
+    <br>
+    <br>
+    <!--Making user input password twice to make sure the correct password is inputted.-->
+    <label for="repeatpsw"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Enter Password" id="repeatpsw" name="repeatpsw" required>
+    <br>
+    <br>
+    <button type="submit">Register</button>
+  </div>
+
+</form>
+</html>
